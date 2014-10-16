@@ -1,1 +1,23 @@
-Hello There
+<html
+ xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:xf="http://www.w3.org/2002/xforms"
+>
+  <head>
+    <title>XForms input and output controls</title>  </head>
+  <body>
+<script>
+txt="<bookstore><book>";
+txt=txt+"<title>Everyday Italian</title>";
+txt=txt+"<author>Giada De Laurentiis</author>";
+txt=txt+"<year>2005</year>";
+txt=txt+"</book></bookstore>";
+
+  parser=new DOMParser();
+  xmlDoc=parser.parseFromString(txt,"text/xml");
+</script>
+
+  </body>
+</html>
+
+
+
